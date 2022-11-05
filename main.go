@@ -1,11 +1,9 @@
 package main
 
 import (
-	// "github.com/jeki-aka-zer0/learn-language/cmd"
-	"fmt"
+	"github.com/jeki-aka-zer0/learn-language/cmd/lang"
 )
 
 func main() {
-	// cmd.Execute()
-	fmt.Println("Hello")
+	lang.Execute()
 }
