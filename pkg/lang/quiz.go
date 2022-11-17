@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	data "github.com/jeki-aka-zer0/learn-language/pkg/data"
+	prompt "github.com/jeki-aka-zer0/learn-language/pkg/prompt"
 )
 
 var db *sql.DB
@@ -46,7 +47,13 @@ func Quiz() {
 		fmt.Println("There is no worlds yet.")
 		return
 	case nil:
-		fmt.Printf("Translate the following: '%s'", word.Word)
+		wordPromptContent := prompt.PromptContent{
+			ErrorMsg: "Please provide a word.",
+			Label:    "Translate the following: " + word.Word,
+		}
+		inputWord := prompt.PromptGetInput(wordPromptContent)
+
+		fmt.Printf("You entered: '%s'", inputWord)
 	default:
 		panic(err)
 	}
