@@ -12,11 +12,11 @@ docker-down:
 docker-down-clear:
 	docker-compose down -v --remove-orphans
 
-run:
-	docker-compose exec app go run main.go
+quiz:
+	go run main.go quiz
+
+parse:
+	go run main.go parse
 
 build:
 	docker-compose exec app go build -o main main.go
-
-quiz:
-	docker-compose exec app ./main
