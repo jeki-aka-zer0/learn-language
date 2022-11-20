@@ -1,4 +1,4 @@
-package lang
+package cmd
 
 import (
 	quiz "github.com/jeki-aka-zer0/learn-language/pkg/lang"
@@ -15,5 +15,5 @@ var quizCmd = &cobra.Command{
 }
 
 func init() {
-	rootCmd.AddCommand(quizCmd)
+	RootCmd.AddCommand(quizCmd)
 }

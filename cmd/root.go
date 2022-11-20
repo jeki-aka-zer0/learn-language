@@ -1,4 +1,4 @@
-package lang
+package cmd
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	rootCmd = &cobra.Command{
+	RootCmd = &cobra.Command{
 		Use:   "lang",
 		Short: "Remember and repeat",
 		Long:  "This is an application that helps you to learn words and phrases",
@@ -16,7 +16,7 @@ var (
 )
 
 func Execute() {
-	if err := rootCmd.Execute(); err != nil {
+	if err := RootCmd.Execute(); err != nil {
 		fmt.Fprintf(os.Stderr, "Whoops. There was an error '%s'", err)
 		os.Exit(1)
 	}
