@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS `words`;
 CREATE TABLE `words`
 (
     `id`          bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-    `word`        varchar(255)        NOT NULL,
+    `word`        varchar(255)        NOT NULL UNIQUE,
     `translate`   varchar(255)                 DEFAULT NULL,
     `example`     varchar(255)                 DEFAULT NULL,
     `lang`        ENUM ('en', 'fr')   NOT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE `words`
 LOCK
     TABLES `words` WRITE;
 INSERT INTO `words` (`word`, `translate`, `example`, `lang`, `status`, `asked_times`, `created_at`, `updated_at`)
-VALUES ('Severity', 'Строгость', '', 'en', 0, 0, '2022-11-14 20:52:00', '2022-11-14 20:52:00'),
-       ('Do it over', 'Переделать', 'I need to do it over', 'en', 0, 0, '2022-11-14 20:52:01', '2022-11-14 20:52:01');
+VALUES ('Severity', 'Строгость', 'Errors with the highest severity level are considered the fatal ones', 'en', 0, 0, '2022-11-14 20:52:00', '2022-11-14 20:52:00'),
+       ('Do it over', 'Переделать', 'We will try to do it over the next couple of weeks', 'en', 0, 0, '2022-11-14 20:52:01', '2022-11-14 20:52:01');
 UNLOCK
     TABLES;
