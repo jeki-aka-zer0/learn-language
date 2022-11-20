@@ -48,6 +48,17 @@ func (word *Word) RepeatNever() {
 	updateWord(word)
 }
 
+func (word *Word) Create() {
+	_, err := db.Exec(`
+			INSERT INTO words (word, translate, example, lang)
+			VALUES (?, ?, ?, ?)
+		`, word.Word, word.Translate, word.Example, word.Lang)
+
+	if err != nil {
+		panic(err)
+	}
+}
+
 func GetRandomWord() *Word {
 	word := &Word{}
 
@@ -84,6 +95,26 @@ func updateWord(word *Word) {
 		`, word.Status, word.AskedTimes, time.Now(), word.Id)
 
 	if err != nil {
+		panic(err)
+	}
+}
+
+func IsWordExists(word string) bool {
+	var exists bool
+	err := db.QueryRow(`
+		SELECT EXISTS(
+			SELECT 1
+			FROM words
+			WHERE word = ?
+		)
+	`, word).Scan(&exists)
+
+	switch err {
+	case sql.ErrNoRows:
+		return false
+	case nil:
+		return exists
+	default:
 		panic(err)
 	}
 }
