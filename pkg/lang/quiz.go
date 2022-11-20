@@ -3,9 +3,10 @@ package quiz
 import (
 	"database/sql"
 	"fmt"
+	"time"
 
 	data "github.com/jeki-aka-zer0/learn-language/pkg/data"
-	prompt "github.com/jeki-aka-zer0/learn-language/pkg/prompt"
+	"github.com/manifoldco/promptui"
 )
 
 var db *sql.DB
@@ -47,13 +48,50 @@ func Quiz() {
 		fmt.Println("There is no worlds yet.")
 		return
 	case nil:
-		wordPromptContent := prompt.PromptContent{
-			ErrorMsg: "Please provide a word.",
-			Label:    "Translate the following: " + word.Word,
-		}
-		inputWord := prompt.PromptGetInput(wordPromptContent)
+		fmt.Printf("Translate the following: %q\n", word.Word)
 
-		fmt.Printf("You entered: '%s'", inputWord)
+		prompt := promptui.Select{
+			Label: "Repeat?",
+			Items: []string{"Always", "Sometimes", "Never"},
+		}
+		_, repeat, err := prompt.Run()
+
+		if err != nil {
+			fmt.Printf("Prompt failed %v\n", err)
+			return
+		}
+
+		fmt.Printf("Translation: %s\n", word.Translate)
+		if len(word.Example) > 0 {
+			fmt.Printf("    Example: %s\n", word.Example)
+		}
+
+		switch repeat {
+		case "Always":
+			fmt.Printf("Ok, let's continue learning %q\n", word.Word)
+			word.Status = 0
+		case "Sometimes":
+			fmt.Printf("I will ask you %q from time to time\n", word.Word)
+			word.Status = 1
+		case "Never":
+			fmt.Printf("Congratulations! You have learned %q\n", word.Word)
+			word.Status = 3
+		default:
+			fmt.Printf("Unexpected reposne %q\n", repeat)
+			return
+		}
+		word.AskedTimes++
+
+		_, errUpdate := db.Exec(`
+			UPDATE words
+			SET status = ?, asked_times = ?, updated_at = ?
+			WHERE id = ?
+		`, word.Status, word.AskedTimes, time.Now(), word.Id)
+
+		if errUpdate != nil {
+			fmt.Printf("Prompt failed %v\n", errUpdate)
+			return
+		}
 	default:
 		panic(err)
 	}
