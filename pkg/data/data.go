@@ -2,6 +2,7 @@ package data
 
 import (
 	"database/sql"
+	"strings"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -53,7 +54,7 @@ func (word *Word) Create() {
 	_, err := db.Exec(`
 			INSERT INTO words (word, translate, example, lang)
 			VALUES (?, ?, ?, ?)
-		`, word.Word, word.Translate, word.Example, word.Lang)
+		`, strings.ToLower(word.Word), strings.ToLower(word.Translate), strings.ToLower(word.Example), word.Lang)
 
 	if err != nil {
 		panic(err)
