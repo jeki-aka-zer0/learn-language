@@ -65,6 +65,21 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Freckles', 'Веснушки', 'He has red hair and freckles on his face', 'en', 0, 0, '2022-11-20 21:25:25', '2022-11-20 21:25:25'),
        ('Turtleneck', 'Водолазка', 'Jobs'' personal uniform is a black turtleneck', 'en', 0, 0, '2022-11-20 21:26:52', '2022-11-20 21:26:52'),
        ('Sturdy', 'Крепкий', 'It was a sturdy building, able to withstand strong winds and cold weather', 'en', 0, 0, '2022-11-20 21:29:34', '2022-11-20 21:29:34'),
-       ('Toothpick', 'Зубочистка', 'To add color he used cotton twisted on a toothpick dipped in paint', 'en', 0, 0, '2022-11-20 21:31:23', '2022-11-20 21:31:23');
+       ('Toothpick', 'Зубочистка', 'To add color he used cotton twisted on a toothpick dipped in paint', 'en', 0, 0, '2022-11-20 21:31:23', '2022-11-20 21:31:23'),
+       ('Salient', 'Заметный', 'The salient points of the speech', 'en', 0, 0, '2022-11-28 21:09:13', '2022-11-28 21:09:13'),
+       ('Loaf', 'Буханка', 'Loaf of bread', 'en', 0, 0, '2022-11-28 21:10:26', '2022-11-28 21:10:26'),
+       ('Idle', 'Праздный', 'The team will be idle tomorrow', 'en', 0, 0, '2022-11-28 21:11:57', '2022-11-28 21:11:57'),
+       ('Adversity', 'Несчастье', 'Showing courage in the face of adversity', 'en', 0, 0, '2022-11-28 21:13:45', '2022-11-28 21:13:45'),
+       ('Resilient', 'Устойчивый', 'Various software resiliency techniques and mechanisms can help teams respond to errors, initiate recovery processes and maintain consistent application performance', 'en', 0, 0, '2022-11-28 21:15:58', '2022-11-28 21:15:58'),
+       ('Deviate', 'Отклоняться', 'You must not deviate from the agreed route', 'en', 0, 0, '2022-11-28 21:16:36', '2022-11-28 21:16:36'),
+       ('Deliberately', 'Умышленно', 'The fire was started deliberately', 'en', 0, 0, '2022-11-28 21:17:15', '2022-11-28 21:17:15'),
+       ('Ceaseless', 'Непрекращающийся', 'The fort was subjected to ceaseless bombardment', 'en', 0, 0, '2022-11-28 21:17:58', '2022-11-28 21:17:58'),
+       ('Beyond', 'Вне', 'Many people work well beyond the age of sixty-five', 'en', 0, 0, '2022-11-28 21:18:51', '2022-11-28 21:18:51'),
+       ('Imply', 'Подразумевать', 'I did not mean to imply that there was anything wrong with the way you dress', 'en', 0, 0, '2022-11-28 21:21:42', '2022-11-28 21:21:42'),
+       ('Anticipate', 'Предвидеть', 'There was every reason to anticipate the success', 'en', 0, 0, '2022-11-28 21:22:22', '2022-11-28 21:22:22'),
+       ('Discrepancy', 'Несоответствие', 'If a discrepancy is found, the report will be corrected', 'en', 0, 0, '2022-11-28 21:23:28', '2022-11-28 21:23:28'),
+       ('Outage', 'Отключение', 'Network outage, server crash, or disk failure affects business', 'en', 0, 0, '2022-11-28 21:25:36', '2022-11-28 21:25:36'),
+       ('Discourage', 'Обескуражить', 'Don''t let the results discourage you', 'en', 0, 0, '2022-11-28 21:26:25', '2022-11-28 21:26:25');
+
 UNLOCK
     TABLES;
