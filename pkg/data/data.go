@@ -5,6 +5,7 @@ import (
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/jeki-aka-zer0/learn-language/pkg/lang"
 )
 
 var db *sql.DB
@@ -59,7 +60,7 @@ func (word *Word) Create() {
 	}
 }
 
-func GetRandomWord() *Word {
+func GetRandomWord(lang lang.Lang) *Word {
 	word := &Word{}
 
 	err := db.QueryRow(`
@@ -71,10 +72,10 @@ func GetRandomWord() *Word {
 			status,
 			asked_times
 		FROM words
-		WHERE status < 2
+		WHERE status < 2 AND lang = ?
 		ORDER BY status, RAND()
-		LIMIT 1;
-	`).Scan(&word.Id, &word.Word, &word.Translate, &word.Example, &word.Lang, &word.Status, &word.AskedTimes)
+		LIMIT 1
+	`, lang.String()).Scan(&word.Id, &word.Word, &word.Translate, &word.Example, &word.Lang, &word.Status, &word.AskedTimes)
 
 	switch err {
 	case sql.ErrNoRows:

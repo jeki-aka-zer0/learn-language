@@ -5,11 +5,19 @@ import (
 
 	"github.com/fatih/color"
 	data "github.com/jeki-aka-zer0/learn-language/pkg/data"
+	lang "github.com/jeki-aka-zer0/learn-language/pkg/lang"
 	"github.com/manifoldco/promptui"
 )
 
-func Quiz() {
-	word := data.GetRandomWord()
+func Quiz(langRaw interface{}) {
+	lang := lang.ParseLang(langRaw)
+	ask(lang)
+}
+
+func ask(lang lang.Lang) {
+	fmt.Printf("Lang is: %s\n", lang.String())
+
+	word := data.GetRandomWord(lang)
 	error := color.New(color.FgRed).Add(color.Bold)
 
 	if word == nil {
@@ -52,9 +60,9 @@ func Quiz() {
 		fmt.Println("Congratulations! You have learned it")
 		word.RepeatNever()
 	default:
-		fmt.Printf("Unexpected reposne %q\n", repeat)
+		fmt.Printf("Unexpected response %q\n", repeat)
 		return
 	}
 
-	Quiz()
+	ask(lang)
 }
