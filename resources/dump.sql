@@ -79,7 +79,14 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Anticipate', 'Предвидеть', 'There was every reason to anticipate the success', 'en', 0, 0, '2022-11-28 21:22:22', '2022-11-28 21:22:22'),
        ('Discrepancy', 'Несоответствие', 'If a discrepancy is found, the report will be corrected', 'en', 0, 0, '2022-11-28 21:23:28', '2022-11-28 21:23:28'),
        ('Outage', 'Отключение', 'Network outage, server crash, or disk failure affects business', 'en', 0, 0, '2022-11-28 21:25:36', '2022-11-28 21:25:36'),
-       ('Discourage', 'Обескуражить', 'Don''t let the results discourage you', 'en', 0, 0, '2022-11-28 21:26:25', '2022-11-28 21:26:25');
+       ('Discourage', 'Обескуражить', 'Don''t let the results discourage you', 'en', 0, 0, '2022-11-28 21:26:25', '2022-11-28 21:26:25'),
+       ('Mundane', 'Земной', 'Mundane matters such as paying bills and shopping for food do not interest her', 'en', 0, 0, '2022-12-10 21:35:26', '2022-12-10 21:35:26'),
+       ('Sacrifice', 'Жертва', 'Should i sacrifice my bed time to learn programming fast and get a development job?', 'en', 0, 0, '2022-12-10 21:37:25', '2022-12-10 21:37:25'),
+       ('Rack', 'Стойка', 'A server rack is a type of frame within which you can mount server equipment, including routers, switches, and servers', 'en', 0, 0, '2022-12-10 21:42:26', '2022-12-10 21:42:26'),
+       ('Redundancy', 'Избыточность', 'Data redundancy occurs when the same piece of data exists in multiple places', 'en', 0, 0, '2022-12-10 21:45:26', '2022-12-10 21:45:26'),
+       ('Eliminate', 'Ликвидировать', 'This diet claims to eliminate toxins from the body', 'en', 0, 0, '2022-12-10 21:46:22', '2022-12-10 21:46:22'),
+       ('Entertainment', 'Развлечение', 'Hired a band to provide entertainment', 'en', 0, 0, '2022-12-10 21:48:19', '2022-12-10 21:48:19'),
+       ('Vital', 'Жизненно важный', 'These matters are vital to national defense', 'en', 0, 0, '2022-12-10 21:49:43', '2022-12-10 21:49:43');
 
 UNLOCK
     TABLES;
