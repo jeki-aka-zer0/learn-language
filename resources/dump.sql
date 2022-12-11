@@ -86,7 +86,19 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Redundancy', 'Избыточность', 'Data redundancy occurs when the same piece of data exists in multiple places', 'en', 0, 0, '2022-12-10 21:45:26', '2022-12-10 21:45:26'),
        ('Eliminate', 'Ликвидировать', 'This diet claims to eliminate toxins from the body', 'en', 0, 0, '2022-12-10 21:46:22', '2022-12-10 21:46:22'),
        ('Entertainment', 'Развлечение', 'Hired a band to provide entertainment', 'en', 0, 0, '2022-12-10 21:48:19', '2022-12-10 21:48:19'),
-       ('Vital', 'Жизненно важный', 'These matters are vital to national defense', 'en', 0, 0, '2022-12-10 21:49:43', '2022-12-10 21:49:43');
+       ('Vital', 'Жизненно важный', 'These matters are vital to national defense', 'en', 0, 0, '2022-12-10 21:49:43', '2022-12-10 21:49:43'),
+       ('Mitigation', 'Смягчение', 'The problem is extremely complex and its mitigation will require measures', 'en', 0, 0, '2022-12-11 14:25:31', '2022-12-11 14:25:31'),
+       ('Delightful', 'Восхитительный', 'Thank you for a delightful evening', 'en', 0, 0, '2022-12-11 14:26:14', '2022-12-11 14:26:14'),
+       ('Tangle', 'Клубок', 'She pulled the tangle of wires out of the box', 'en', 0, 0, '2022-12-11 14:27:15', '2022-12-11 14:27:15'),
+       ('Conversely', 'Наоборот', 'Smaller dogs, conversely have longer lifespans', 'en', 0, 0, '2022-12-11 14:47:10', '2022-12-11 14:47:10'),
+       ('Flux', 'Поток', 'Our plans are in a state of flux at the moment', 'en', 0, 0, '2022-12-11 14:52:03', '2022-12-11 14:52:03'),
+       ('Embody', 'Воплощать', 'This cruise ship is the embodiment of luxury', 'en', 0, 0, '2022-12-11 14:53:03', '2022-12-11 14:53:03'),
+       ('Appeal', 'Обращаться', 'The leader made an appeal for unity', 'en', 0, 0, '2022-12-11 14:54:00', '2022-12-11 14:54:00'),
+       ('Precede', 'Предшествовать', 'I\'m not sure if i fully understand the sentence which precedes this one', 'en', 0, 0, '2022-12-11 14:55:22', '2022-12-11 14:55:22'),
+       ('Derive', 'Вывести', 'Section 7 presents some user statistics derived from randomly logged requests', 'en', 0, 0, '2022-12-11 14:56:57', '2022-12-11 14:56:57'),
+       ('Cumbersome', 'Громоздкий', 'This system is cumbersome, complex and slow', 'en', 0, 0, '2022-12-11 14:59:20', '2022-12-11 14:59:20'),
+       ('Heterogeneous', 'Неоднородный', 'The architecture of the city until the earthquake and fire of 1906 was very heterogeneous', 'en', 0, 0, '2022-12-11 15:00:52', '2022-12-11 15:00:52'),
+       ('Vigilant', 'Бдительный', 'I will keep a vigilant eye on you', 'en', 0, 0, '2022-12-11 15:03:35', '2022-12-11 15:03:35');
 
 UNLOCK
     TABLES;
