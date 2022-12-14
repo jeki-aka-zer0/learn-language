@@ -98,7 +98,8 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Derive', 'Вывести', 'Section 7 presents some user statistics derived from randomly logged requests', 'en', 0, 0, '2022-12-11 14:56:57', '2022-12-11 14:56:57'),
        ('Cumbersome', 'Громоздкий', 'This system is cumbersome, complex and slow', 'en', 0, 0, '2022-12-11 14:59:20', '2022-12-11 14:59:20'),
        ('Heterogeneous', 'Неоднородный', 'The architecture of the city until the earthquake and fire of 1906 was very heterogeneous', 'en', 0, 0, '2022-12-11 15:00:52', '2022-12-11 15:00:52'),
-       ('Vigilant', 'Бдительный', 'I will keep a vigilant eye on you', 'en', 0, 0, '2022-12-11 15:03:35', '2022-12-11 15:03:35');
+       ('Vigilant', 'Бдительный', 'I will keep a vigilant eye on you', 'en', 0, 0, '2022-12-11 15:03:35', '2022-12-11 15:03:35'),
+       ('Severe', 'Тяжелый', 'A severe shortage of engineers', 'en', 0, 0, '2022-12-14 21:24:01', '2022-12-14 21:24:01');
 
 UNLOCK
     TABLES;
