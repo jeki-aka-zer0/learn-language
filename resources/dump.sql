@@ -100,7 +100,17 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Heterogeneous', 'Неоднородный', 'The architecture of the city until the earthquake and fire of 1906 was very heterogeneous', 'en', 0, 0, '2022-12-11 15:00:52', '2022-12-11 15:00:52'),
        ('Vigilant', 'Бдительный', 'I will keep a vigilant eye on you', 'en', 0, 0, '2022-12-11 15:03:35', '2022-12-11 15:03:35'),
        ('Severe', 'Тяжелый', 'A severe shortage of engineers', 'en', 0, 0, '2022-12-14 21:24:01', '2022-12-14 21:24:01'),
-       ('Concise', 'Лаконичный', 'Write the letter in a clear, concise style', 'en', 0, 0, '2022-12-26 15:51:32', '2022-12-26 15:51:32');
+       ('Concise', 'Лаконичный', 'Write the letter in a clear, concise style', 'en', 0, 0, '2022-12-26 15:51:32', '2022-12-26 15:51:32'),
+       ('Cynical', 'Циничный', 'Positive cynicism keeps you in a constant state of healthy, critical thinking', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Quirk', 'Причуда', 'They accepted her attitude as one of her little quirks', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Reveale', 'Раскрыть', 'Nintendo revealed its plans to release a new console', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Sustainable', 'Устойчивый', 'Sustainable economic growth', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Amend', 'Изменить', 'Every attempt to amend or revise the present constitution has, however, been unsuccessful', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Miscellaneous', 'Разнообразный', 'Large quantities of miscellaneous imports are sent by Germany, Spain, France and Italy', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Bogus', 'Фальшивка', 'Spammers almost exclusively use bogus sending addresses so will not see the error message', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Rival', 'Соперник', 'The teams have been longtime rivals', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Disrupt', 'Нарушить', 'Flooding disrupted rail services', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Reveal', 'Раскрыть', 'She was not going to reveal her secret unless she had to', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40');
 
 UNLOCK
     TABLES;
