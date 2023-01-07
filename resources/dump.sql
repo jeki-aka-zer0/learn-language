@@ -110,7 +110,14 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Bogus', 'Фальшивка', 'Spammers almost exclusively use bogus sending addresses so will not see the error message', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
        ('Rival', 'Соперник', 'The teams have been longtime rivals', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
        ('Disrupt', 'Нарушить', 'Flooding disrupted rail services', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
-       ('Reveal', 'Раскрыть', 'She was not going to reveal her secret unless she had to', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40');
+       ('Reveal', 'Раскрыть', 'She was not going to reveal her secret unless she had to', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
+       ('Viable', 'Жизнеспособный', 'Up until now, there has been no viable alternative', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
+       ('Glance', 'Взгляд', 'This may be a small error not easily detected at first glance', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
+       ('Sought-after', 'Востребованный', 'The most expensive and sought-after perfume', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
+       ('Falter', 'Упасть', 'Without family values, a family may falter', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
+       ('Mundane', 'Обыденное', 'It was difficult returning to our mundane life after our weekend high', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
+       ('Feasible', 'Осуществимо', 'We are looking for the most feasible scenario', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11');
+       
 
 UNLOCK
     TABLES;
