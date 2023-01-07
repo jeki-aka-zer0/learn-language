@@ -103,7 +103,6 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Concise', 'Лаконичный', 'Write the letter in a clear, concise style', 'en', 0, 0, '2022-12-26 15:51:32', '2022-12-26 15:51:32'),
        ('Cynical', 'Циничный', 'Positive cynicism keeps you in a constant state of healthy, critical thinking', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
        ('Quirk', 'Причуда', 'They accepted her attitude as one of her little quirks', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
-       ('Reveale', 'Раскрыть', 'Nintendo revealed its plans to release a new console', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
        ('Sustainable', 'Устойчивый', 'Sustainable economic growth', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
        ('Amend', 'Изменить', 'Every attempt to amend or revise the present constitution has, however, been unsuccessful', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
        ('Miscellaneous', 'Разнообразный', 'Large quantities of miscellaneous imports are sent by Germany, Spain, France and Italy', 'en', 0, 0, '2023-01-03 23:49:40', '2023-01-03 23:49:40'),
