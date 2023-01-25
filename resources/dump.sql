@@ -114,7 +114,17 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Glance', 'Взгляд', 'This may be a small error not easily detected at first glance', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
        ('Sought-after', 'Востребованный', 'The most expensive and sought-after perfume', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
        ('Falter', 'Упасть', 'Without family values, a family may falter', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
-       ('Feasible', 'Осуществимо', 'We are looking for the most feasible scenario', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11');
+       ('Feasible', 'Осуществимо', 'We are looking for the most feasible scenario', 'en', 0, 0, '2023-01-07 23:57:11', '2023-01-07 23:57:11'),
+       ('Adjacent', 'Соседний', 'They work in adjacent buildings', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Anxious', 'Тревожный', 'My mother always gets a bit anxious if we do not arrive when we say we will', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Foam', 'Мыло', 'She scraped the foam off her coffee', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Embrace', 'Объятие', 'They embraced one last time before going their separate ways', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Eavesdrop', 'Подслушивать', 'The government illegally eavesdropped on his phone conversations', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Evade', 'Уклоняться', 'I have never met anyone who could evade a question as well as he can', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Ubiquitous', 'Вездесущий', 'Computers are becoming increasingly ubiquitous', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Encompass', 'Охватывать', 'The course will encompass physics, chemistry and biology', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Accommodate', 'Приспособиться', 'Investors quickly accommodated themselves to the new market conditions', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Orphan', 'Сирота', 'When his parents died in the automobile accident, he became an orphan', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07');
        
 
 UNLOCK
