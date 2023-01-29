@@ -124,8 +124,10 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Ubiquitous', 'Вездесущий', 'Computers are becoming increasingly ubiquitous', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
        ('Encompass', 'Охватывать', 'The course will encompass physics, chemistry and biology', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
        ('Accommodate', 'Приспособиться', 'Investors quickly accommodated themselves to the new market conditions', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
-       ('Orphan', 'Сирота', 'When his parents died in the automobile accident, he became an orphan', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07');
-       
+       ('Orphan', 'Сирота', 'When his parents died in the automobile accident, he became an orphan', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
+       ('Latch', 'Защелка', 'She latched the door carefully', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57'),
+       ('Interfere', 'Вмешиваться', 'I would never interfere between a husband and wife', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57'),
+       ('Permutation', 'Перестановка', 'A permutation is an arrangement of objects in a definite order', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57');
 
 UNLOCK
     TABLES;
