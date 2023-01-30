@@ -127,7 +127,15 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Orphan', 'Сирота', 'When his parents died in the automobile accident, he became an orphan', 'en', 0, 0, '2023-01-25 22:38:07', '2023-01-25 22:38:07'),
        ('Latch', 'Защелка', 'She latched the door carefully', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57'),
        ('Interfere', 'Вмешиваться', 'I would never interfere between a husband and wife', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57'),
-       ('Permutation', 'Перестановка', 'A permutation is an arrangement of objects in a definite order', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57');
+       ('Permutation', 'Перестановка', 'A permutation is an arrangement of objects in a definite order', 'en', 0, 0, '2023-01-29 22:11:57', '2023-01-29 22:11:57'),
+       ('Erode', 'Разрушать', 'Crashing waves have eroded the cliffs along the beach', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Merely', 'Просто', 'She got the job merely because her father owns the company', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Domestic', 'Домашний', 'Jake was arrested for committing domestic violence', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Inclined', 'Наклонный', 'I am inclined to think that the ancient Greeks understood this better than we do', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Sparse', 'Редкий', 'Traffic was sparse on the highway', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Quaint', 'Причудливый', 'Quaint country cottages', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Wield', 'Владеть', 'Can he wield a hammer?', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Eerie', 'Жуткий', 'She heard the eerie noise of the wind howling through the trees', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00');
 
 UNLOCK
     TABLES;
