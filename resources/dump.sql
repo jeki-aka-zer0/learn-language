@@ -135,7 +135,19 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Sparse', 'Редкий', 'Traffic was sparse on the highway', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
        ('Quaint', 'Причудливый', 'Quaint country cottages', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
        ('Wield', 'Владеть', 'Can he wield a hammer?', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
-       ('Eerie', 'Жуткий', 'She heard the eerie noise of the wind howling through the trees', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00');
+       ('Eerie', 'Жуткий', 'She heard the eerie noise of the wind howling through the trees', 'en', 0, 0, '2023-01-30 21:44:00', '2023-01-30 21:44:00'),
+       ('Recurring', 'Повторяющийся', 'I have to pay recurring costs every month', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Bid', 'Делать ставку', 'I bid for a famous painting at the auction', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Fatigue', 'Усталость', 'The right vitamins help you combat fatigue', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Vague', 'Нечеткий', 'They had only a vague idea where the place was', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Futile', 'Бесполезно', 'It would be futile to protest', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Obstacle', 'Препятствие', 'They must overcome a number of obstacles before the restaurant can be opened', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Wage', 'Заработная плата', 'The company offers competitive wages and good benefits', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Cellar', 'Подвал', 'H has an impressively large store of wine in his cellar', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Rinse', 'Смывать', 'Rinse (off) the apple before you eat it', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Perishable', 'Скоропортящиеся', 'Raw eggs are highly perishable and must be chilled before and after cooking', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Upright', 'Вертикальный', 'Please return your seat to an upright position and fasten your belt', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Intruders', 'Злоумышленники', 'He found a masked intruder in the kitchen', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00');
 
 UNLOCK
     TABLES;
