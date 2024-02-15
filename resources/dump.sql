@@ -94,7 +94,7 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Flux', 'Поток', 'Our plans are in a state of flux at the moment', 'en', 0, 0, '2022-12-11 14:52:03', '2022-12-11 14:52:03'),
        ('Embody', 'Воплощать', 'This cruise ship is the embodiment of luxury', 'en', 0, 0, '2022-12-11 14:53:03', '2022-12-11 14:53:03'),
        ('Appeal', 'Обращаться', 'The leader made an appeal for unity', 'en', 0, 0, '2022-12-11 14:54:00', '2022-12-11 14:54:00'),
-       ('Precede', 'Предшествовать', 'I\'m not sure if i fully understand the sentence which precedes this one', 'en', 0, 0, '2022-12-11 14:55:22', '2022-12-11 14:55:22'),
+       ('Precede', 'Предшествовать', 'I am not sure if I fully understand the sentence which precedes this one', 'en', 0, 0, '2022-12-11 14:55:22', '2022-12-11 14:55:22'),
        ('Derive', 'Вывести', 'Section 7 presents some user statistics derived from randomly logged requests', 'en', 0, 0, '2022-12-11 14:56:57', '2022-12-11 14:56:57'),
        ('Cumbersome', 'Громоздкий', 'This system is cumbersome, complex and slow', 'en', 0, 0, '2022-12-11 14:59:20', '2022-12-11 14:59:20'),
        ('Heterogeneous', 'Неоднородный', 'The architecture of the city until the earthquake and fire of 1906 was very heterogeneous', 'en', 0, 0, '2022-12-11 15:00:52', '2022-12-11 15:00:52'),
@@ -147,7 +147,14 @@ VALUES ('Severity', 'Строгость', 'Errors with the highest severity leve
        ('Rinse', 'Смывать', 'Rinse (off) the apple before you eat it', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
        ('Perishable', 'Скоропортящиеся', 'Raw eggs are highly perishable and must be chilled before and after cooking', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
        ('Upright', 'Вертикальный', 'Please return your seat to an upright position and fasten your belt', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
-       ('Intruders', 'Злоумышленники', 'He found a masked intruder in the kitchen', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00');
+       ('Intruders', 'Злоумышленники', 'He found a masked intruder in the kitchen', 'en', 0, 0, '2024-01-28 13:35:00', '2024-01-28 13:35:00'),
+       ('Dense', 'Плотный', 'As the storm cleared, a dense fog came down', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00'),
+       ('Rigid', 'Жесткий', 'She was a fairly rigid person who had strong religious views', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00'),
+       ('Fragile', 'Хрупкий', 'An artist with a fragile ego', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00'),
+       ('Clumsy', 'Неуклюжий', 'I have very clumsy hands and tend to drop things', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00'),
+       ('Humble', 'Скромный', 'He gave a great performance, but he was very humble', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00'),
+       ('Former', 'Бывший', 'The coach is a former professional baseball player', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00'),
+       ('Buckle up', 'Пристегнитесь', 'So buckle up and enjoy the ride', 'en', 0, 0, '2024-02-15 22:28:00', '2024-02-15 22:28:00');
 
 UNLOCK
     TABLES;
